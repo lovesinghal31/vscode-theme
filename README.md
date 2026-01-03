@@ -1,16 +1,42 @@
-# black-theme README
+# Carbon Night (black-theme)
 
-## Working with Markdown
+A pure-black VS Code theme with subtle borders and blue accents.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+## Theme
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+- **Theme name in VS Code**: `Carbon Night`
+- **Base**: `vs-dark`
 
-## For more information
+## Highlights
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+- True black editor/workbench background (`#000000`)
+- Stronger **Command Palette** background + clearer separation (Quick Input / Quick Pick)
+- Improved **Copilot Chat / Inline Chat** styling (near-black inputs with subtle blue borders/shadows)
+- Better code readability via **current-line highlight**, **line numbers**, and **indent guides**
 
-**Enjoy!**
+## Install (Development)
+
+This repository is a VS Code theme extension.
+
+1. Open this folder in VS Code
+2. Press `F5` to start an **Extension Development Host** window
+3. In the new window, open the theme picker (`Ctrl+K Ctrl+T`) and select `Carbon Night`
+
+Changes to `themes/Carbon Night-color-theme.json` apply automatically in the dev host.
+
+## Recommended Settings
+
+This theme includes indent guide colors, but VS Code needs the guides enabled:
+
+```json
+{
+  "editor.guides.indentation": true,
+  "editor.guides.highlightActiveIndentation": true
+}
+```
+
+## Files
+
+- Theme definition: `themes/Carbon Night-color-theme.json`
+- Extension manifest: `package.json`
+- Change log: `CHANGELOG.md`

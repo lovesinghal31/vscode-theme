@@ -3,8 +3,17 @@
   "colors": {
     "editor.background": "#000000",
 
+    /* Editor line differentiation */
+    "editor.lineHighlightBackground": "#0A78F508",
+    "editor.lineHighlightBorder": "#0A78F520",
+    "editorLineNumber.foreground": "#4A5156",
+    "editorLineNumber.activeForeground": "#7EA7FF",
+    "editorIndentGuide.background1": "#151515",
+    "editorIndentGuide.activeBackground1": "#0A78F560",
+
     /* Subtle borders to separate sections */
     "focusBorder": "#7EA7FF",
+    "widget.shadow": "#0A78F560",
     "sideBar.border": "#1A1A1A",
     "panel.border": "#1A1A1A",
     "editorGroup.border": "#1A1A1A",
@@ -15,6 +24,42 @@
     "editorHoverWidget.border": "#1A1A1A",
     "input.border": "#1A1A1A",
     "dropdown.border": "#1A1A1A",
+
+    /* Command Palette / Quick Pick (Ctrl+Shift+P) */
+    "quickInput.background": "#0B0B0B",
+    "quickInput.foreground": "#D0D3D6",
+    "quickInputTitle.background": "#070707",
+    "pickerGroup.border": "#1A1A1A",
+    "pickerGroup.foreground": "#8F969A",
+    "quickInputList.focusBackground": "#0A78F526",
+    "quickInputList.focusForeground": "#E0E0E0",
+    "quickInputList.focusIconForeground": "#7EA7FF",
+
+    /* Copilot Chat / Chat UI */
+    "chat.requestBorder": "#1A1A1A",
+    "chat.requestBackground": "#050505",
+    "chat.requestBubbleBackground": "#ffffff00",
+    "chat.requestBubbleHoverBackground": "#07070700",
+    "chat.requestCodeBorder": "#1A1A1A00",
+    "chat.slashCommandBackground": "#0F0F0F",
+    "chat.slashCommandForeground": "#D0D3D6",
+    "chat.avatarBackground": "#0F0F0F",
+    "chat.avatarForeground": "#D0D3D6",
+    "chat.editedFileForeground": "#9FB2E2",
+    "chat.linesAddedForeground": "#8fbfa000",
+    "chat.linesRemovedForeground": "#ff4c4c00",
+    "chat.checkpointSeparator": "#1A1A1A",
+    "chatManagement.sashBorder": "#1A1A1A",
+
+    /* Inline Chat (editor Copilot input) */
+    "inlineChat.background": "#000000",
+    "inlineChat.foreground": "#D0D3D6",
+    "inlineChat.border": "#0A78F540",
+    "inlineChat.shadow": "#0A78F560",
+    "inlineChatInput.background": "#000000",
+    "inlineChatInput.border": "#0A78F533",
+    "inlineChatInput.focusBorder": "#7EA7FF",
+    "inlineChatInput.placeholderForeground": "#6A7075",
 
     "titleBar.activeBackground": "#000000",
     "titleBar.inactiveBackground": "#000000",
